@@ -31,3 +31,6 @@ def shapeArea(n):
         result[i] = (i+1-1)*4 + result[i-1] 
             
     return result[n-1]
+
+n = 4
+print(shapeArea(n))

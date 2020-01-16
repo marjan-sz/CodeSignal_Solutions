@@ -27,6 +27,7 @@ def bfsComponentSize(matrix):
         g) Repeat e and f until the queue is empty
     ref:https://pythoninwonderland.wordpress.com/2017/03/18/how-to-implement-breadth-first-search-in-python/
     """
+    
     matrix_tpls = []
     for i in range(len(matrix)):
         for j in range(len(matrix[i])):
@@ -53,9 +54,9 @@ def bfsComponentSize(matrix):
             if neighbours:
                 for neighbour in neighbours:
                     queue.append(neighbour)
-          
-    return len(explored)
+              
+        return len(explored)
 
             
 matrix = [[False,True,False], [True,False,False], [False,False,False]]         
-res = bfsComponentSize(matrix)
+print(bfsComponentSize(matrix))

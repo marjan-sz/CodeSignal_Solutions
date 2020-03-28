@@ -55,7 +55,7 @@ def makeArrayConsecutive(sequence):
     for x in sequence:
         my_dict[x] = True
         
-    for i in range (sequence[0], sequence[-1]):
+    for i in range(sequence[0], sequence[-1]):
         try:
             if my_dict[i]:
                 pass

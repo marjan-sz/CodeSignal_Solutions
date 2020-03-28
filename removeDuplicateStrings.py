@@ -13,7 +13,7 @@ Redefine the question:
     c) return an array of unique strings
     
 Consider all possible cases:
-    a) if the inputis not an array, return TypeError
+    a) if the input is not an array, return TypeError
     b) if the input array has integers or floats, remove them
      
 Steps to solve the problem:

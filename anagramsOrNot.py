@@ -74,6 +74,8 @@ def anagramsOrNot(str1, str2):
                 return False
         ## if their length is same, but there is a character in second one
         ## that does not exist in first one -> not anagram 
+        # Do we have any kind of chat here so as to not write messages as comments? xD
+        ## we can debug your projects
         for x in str2_list:
             if x not in str1_list:
                 return False

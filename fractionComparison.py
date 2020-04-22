@@ -5,7 +5,7 @@ Created on Sat Mar 14 19:47:20 2020
 
 @author: marjan
 
-Question: Compare the two given fractions.
+Question: Compare the two given fractions
 
 Example
 

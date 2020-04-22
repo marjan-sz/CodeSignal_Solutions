@@ -35,8 +35,6 @@ Steps to solve the problem:
         e) else return false
 """
 
-
-
 def reverseToSort(inputArray):
     """
     in: array of ints
@@ -89,7 +87,8 @@ subarray_list = []
             reverse_tmp = tmp[::-1]
             if (len(reverse_tmp) > 1) and (reverse_tmp == sorted(reverse_tmp)):
                 subarray_list.append(reverse_tmp)
-                
+    ## it is not possible to find indexes of the start and end of the subarray in the
+    ## original array if the original array has repeated items            
     subarray_list.sort(key= len)
     x = subarray_list[-1]
     x_min = min(x)

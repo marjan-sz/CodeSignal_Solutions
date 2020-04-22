@@ -31,7 +31,10 @@ def isInfiniteProcess(a, b):
         if a > b:
             return True
             break
-    return False
+        elif a < b:
+            continue
+        elif a == b:
+            return False
 
 
-a = isInfiniteProcess(2,6)
+print(isInfiniteProcess(2,6))
